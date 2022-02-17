@@ -18,6 +18,7 @@ int main()
         fac = fac * r;
     }
 
-    std::cout<< "Factorial of"<<no<<std::cout<<"is"<<fac<<std::endl;  
+    std::cout<< "Factorial of "<<no;
+    std::cout<<" is "<<fac<<std::endl;  
     return 0;
 }
